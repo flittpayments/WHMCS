@@ -15,5 +15,5 @@ WHMCS 5.x.x - 8.x.x
 ![Скриншот][2]
 ----
 
-[1]: https://raw.githubusercontent.com/cloudipsp/WHMCS/master/Screenshot_1.png
-[2]: https://raw.githubusercontent.com/cloudipsp/WHMCS/master/Screenshot_2.png
+[1]: https://raw.githubusercontent.com/flittpayments/WHMCS/master/Screenshot_1.png
+[2]: https://raw.githubusercontent.com/flittpayments/WHMCS/master/Screenshot_2.png
