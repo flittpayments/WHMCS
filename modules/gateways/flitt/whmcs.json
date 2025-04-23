@@ -1,0 +1,17 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "flitt",
+  "license": "open",
+  "category": "payments",
+  "description": {
+    "name": "Flitt",
+    "tagline": "Easily accept online payments, increase business revenue, and provide the best payment experience for your customers."
+  },
+  "authors": [
+    {
+      "name": "DM",
+      "homepage": "https:\/\/flitt.com\/"
+    }
+  ]
+}
