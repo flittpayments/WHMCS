@@ -20,7 +20,7 @@ class Flitt_Cls
 
         $str = $password;
         foreach ($data as $k => $v) {
-            $str .= self::SIGNATURE_SEPARATOR . $v;
+            $str .= self::SIGNATURE_SEPARATOR . html_entity_decode($v);
         }
 
         if ($encoded) {
@@ -32,7 +32,7 @@ class Flitt_Cls
 
     public static function isPaymentValid($flittSettings, $response)
     {
-		
+
         if ($flittSettings['MERCHANT'] != $response['merchant_id']) {
             return 'An error has occurred during payment. Merchant data is incorrect.';
         }
@@ -49,5 +49,5 @@ class Flitt_Cls
         return true;
     }
 
-    
+
 }
